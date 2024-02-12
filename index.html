@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fithrianarizki | Personal fortpolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    
+    <nav id="desktop-nav">
+        <div class="logo">fithrianarizki.</div>
+        <div>
+            <ul class="nav-links">
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#contacts">Contacts</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo">fithrianarizki.</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li>
+                    <a href="#home" onclick="toggleMenu()">Home</a>
+                </li>
+                <li>
+                    <a href="#about" onclick="toggleMenu()">About</a>
+                </li>
+                <li>
+                    <a href="#projects" onclick="toggleMenu()">Projects</a>
+                </li>
+                <li>
+                    <a href="#contacts" onclick="toggleMenu()">Contacts</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home">
+        <div class="section_pic-container">
+            <img src="Assets/IMG_0855.jpg" alt="Foto Profile">
+        </div>
+        
+        <div class="section__text">
+            <h1 class="title">
+                Front-End Developer
+            </h1>
+            <p class="section__text__p1">
+                Hi, I'm Fithriana Rizki Iriansyah. A passionate Front-end Developer based in West Java, Indonesia. 📍
+            </p>
+            <div id="socials-container">
+                <img src="Assets/bxl-instagram.svg" alt="Instagram Profile" class="icon" onclick="location.href='https://instagram.com/fithrianarizki/'">
+
+                <img src="Assets/bxl-github.svg" alt="Github Profile" class="icon" onclick="location.href='https://github.com/fithrianarizki/'">
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="img-side">
+                        <img src="Assets/IMG_20220920_173945.jpg" alt="" class="img-side__main-img">
+                </div>
+            
+                <div class="text-side">
+                    <h3>About me</h3>
+                    <h4>Front-end Developer <br> based in West Java, Indonesia 📍</h4>
+                    <p>Hey, my name is Fithriana, and I'm a Frontend Developer. My passion is to create and develop a clean UI/UX for my users.<br><br>My main stack currently is HTML, CSS, JavaScript.</p></div>
+            </div>        
+        </div>
+    </section>
+
+    <footer>
+        <div class="container2">
+            <div class="footerc">
+                <h5>
+                    Copyright © 2024. All rights are reserved
+                </h5>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
